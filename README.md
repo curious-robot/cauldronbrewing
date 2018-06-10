@@ -9,6 +9,12 @@ For example, to brew a strong splash potion of health, add netherwart, glisterin
 
 To get the actual potion bottles, just right click on the cauldron with an empty glass bottle. 
 
+You can only fill up bottles in survival (or adventure) mode. Bottle filling won't work in creative unfortunately. 
+
+## The Trade-off
+
+The benefit of using a cauldron instead of a brewing stand is that it is much faster (and cooler). However, the trade-off is that you have to use a blaze powder per 3 potions brewed instead of the couple dozen[?] you get when using a brewing stand. But honestly, if you have a blaze farm it really doesn't matter. 
+
 ## It's Foolproof!
 
 * You can't brew a potion if there's already a potion brew in the cauldron.
@@ -26,9 +32,13 @@ To get the actual potion bottles, just right click on the cauldron with an empty
 * Potion of Mining requires an iron ingot as its main ingredient. This is a custom potion. 
 * More custom potions will be added.
 
+## To Add (Suggestions Welcome)
+
+* More (balanced) custom potion recipes
+* Particle effects so you can tell what potion is held in a cauldron. 
+
 ## Installation
 
 * Click the "Cone or download" button and download as .zip
 * Extract the downloaded folder
-* Copy ONLY the "vtom" folder into the "datapacks" folder of whatever Minecraft save you want to use this vanilla mod
-* **IMPORTANT** You must run this command for the datapack to work!: /function vtom:setup
+* Copy ONLY the "vtom" folder into the "datapacks" folder of whatever Minecraft save you want to use this vanilla mod with
