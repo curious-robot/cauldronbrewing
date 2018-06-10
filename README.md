@@ -9,6 +9,10 @@ For example, to brew a strong splash potion of health, add netherwart, glisterin
 
 To get the actual potion bottles, just right click on the cauldron with an empty glass bottle. 
 
+## The Trade-off
+
+The benefit of using a cauldron instead of a brewing stand is that it is much faster (and cooler). However, the trade-off is that you have to use a blaze powder per 3 potions brewed instead of the couple dozen[?] you get when using a brewing stand. But honestly, if you have a blaze farm it really doesn't matter. 
+
 ## It's Foolproof!
 
 * You can't brew a potion if there's already a potion brew in the cauldron.
