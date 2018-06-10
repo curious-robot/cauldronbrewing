@@ -1,0 +1,19 @@
+execute unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:redstone"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glowstone_dust"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gunpowder"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:dragon_breath"}}] run scoreboard players set @s potionmodifier 1
+execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:redstone"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glowstone_dust"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gunpowder"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:dragon_breath"}}] run scoreboard players set @s potionmodifier 2
+execute unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:redstone"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glowstone_dust"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gunpowder"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:dragon_breath"}}] run scoreboard players set @s potionmodifier 3
+execute unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:redstone"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glowstone_dust"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gunpowder"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:dragon_breath"}}] run scoreboard players set @s potionmodifier 4
+execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:redstone"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glowstone_dust"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gunpowder"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:dragon_breath"}}] run scoreboard players set @s potionmodifier 5
+execute unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:redstone"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glowstone_dust"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gunpowder"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:dragon_breath"}}] run scoreboard players set @s potionmodifier 6
+execute unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:redstone"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glowstone_dust"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gunpowder"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:dragon_breath"}}] run scoreboard players set @s potionmodifier 7
+execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:redstone"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glowstone_dust"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gunpowder"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:dragon_breath"}}] run scoreboard players set @s potionmodifier 8
+execute unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:redstone"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glowstone_dust"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gunpowder"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:dragon_breath"}}] run scoreboard players set @s potionmodifier 9
+
+#1 = normal
+#2 = long
+#3 = strong
+#4 = splash
+#5 = long splash
+#6 = strong splash
+#7 = lingering
+#8 = long lingering
+#9 = strong lingering
