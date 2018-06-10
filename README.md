@@ -28,4 +28,7 @@ To get the actual potion bottles, just right click on the cauldron with an empty
 
 ## Installation
 
-* Click 
+* Click the "Cone or download" button and download as .zip
+* Extract the downloaded folder
+* Copy ONLY the "vtom" folder into the "datapacks" folder of whatever Minecraft save you want to use this vanilla mod
+* **IMPORTANT** You must run this command for the datapack to work!: /function vtom:setup
