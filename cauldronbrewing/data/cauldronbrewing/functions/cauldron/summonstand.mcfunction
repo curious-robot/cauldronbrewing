@@ -2,9 +2,9 @@
 summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"cauldron\"",Invulnerable:1b,NoGravity:1b,Invisible:1b}
 scoreboard players add @e[type=armor_stand,limit=1,name="cauldron",distance=..0.5] brewsleft 3
 #Depending on the main ingredient included in the brew, set the armor stand's potion id score.
-execute as @e[type=armor_stand,limit=1,distance=..0.5,name="cauldron"] at @s run function vtom:cauldron/getpotiontype
+execute as @e[type=armor_stand,limit=1,distance=..0.5,name="cauldron"] at @s run function cauldronbrewing:cauldron/getpotiontype
 #Depending on the secondary ingredients included in the brew, set the armor stand's potion modifier score.
-execute as @e[type=armor_stand,limit=1,distance=..0.5,name="cauldron"] at @s run function vtom:cauldron/getpotionmodifier
+execute as @e[type=armor_stand,limit=1,distance=..0.5,name="cauldron"] at @s run function cauldronbrewing:cauldron/getpotionmodifier
 #Destroy the ingredients
 execute at @e[type=armor_stand,name="cauldron",scores={potionid=1..,potionmodifier=1..}] run kill @e[type=item,distance=..0.5]
 #If for some reason the armor stand was not assigned a potion modifier id, it should destroy itself

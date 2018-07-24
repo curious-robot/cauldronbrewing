@@ -9,13 +9,14 @@ execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:p
 execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glistering_melon_slice"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:fermented_spider_eye"}}] run scoreboard players set @s potionid 9
 execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:glistering_melon_slice"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:fermented_spider_eye"}}] run scoreboard players set @s potionid 10
 execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:ghast_tear"}}] run scoreboard players set @s potionid 11
-execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:brown_mushroom"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:fermented_spider_eye"}}] run scoreboard players set @s potionid 12
+execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:rotten_flesh"}}] run scoreboard players set @s potionid 12
 execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:blaze_rod"}}] unless entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:fermented_spider_eye"}}] run scoreboard players set @s potionid 13
 execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:blaze_rod"}}] if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:fermented_spider_eye"}}] run scoreboard players set @s potionid 14
 execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:phantom_membrane"}}] run scoreboard players set @s potionid 15
 execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gold_ingot"}}] run scoreboard players set @s potionid 16
 execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:emerald"}}] run scoreboard players set @s potionid 17
 execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:iron_ingot"}}] run scoreboard players set @s potionid 18
+execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:shulker_shell"}}] run scoreboard players set @s potionid 19
 
 #1 - Night Vision
 #2 - Invisibility
@@ -35,3 +36,4 @@ execute if entity @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:i
 #16 - Luck
 #17 - Bottle o' Enchanting
 #18 - Haste
+#19 - Levitation

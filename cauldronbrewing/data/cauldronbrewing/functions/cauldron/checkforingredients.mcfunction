@@ -1,0 +1,2 @@
+#Checks for the 2 base ingredients of a potion in a full cauldron every tick
+execute as @a at @e[type=item,limit=1,name="Blaze Powder"] if entity @e[type=item,limit=1,distance=..0.5,name="Nether Wart"] if block ~ ~ ~ minecraft:cauldron[level=3] unless entity @e[type=armor_stand,scores={potionid=0..},distance=..0.5] run function cauldronbrewing:cauldron/summonstand
